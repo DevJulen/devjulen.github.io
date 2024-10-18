@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJulen - Game Programmer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "AZp4yFQXS-KX3d3z0",
+        });
+    })();
+    </script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>DevJulen</span></a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Get in Touch</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </header>
+
+    <section id="about" class="about">
+
+        <div class="about-container">
+            <img src="img/photo.jpg" alt="Photo of Julen Indias">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Julen Indias</h1>
+                    <span>Game Programmer</span>
+                    <p>
+                        With a <span class="light-blue-text">B.S. Degree in Computer Science and AI</span> I decided to begin my journey in game
+                        development in summer 2023 where I started familiarizing with Unity in a few personal
+                        projects before enrolling in a <span class="light-blue-text">Master’s Degree in Game Design and Development</span> at the
+                        <span class="light-blue-text">EVAD</span> school in Malaga.
+                        Currently I’m working on my master’s thesis along with other class colleagues, a 2.5D short
+                        <span class="light-blue-text">metroidvania experience</span> called Sacrium. Through the last year in Malaga learning game
+                        design and programming tools, I've worked in three small games with which I’ve learnt a lot
+                        about <span class="light-blue-text">Unity, different programming patterns, programming conventions, clean code
+                        practices, essential 3D math concepts</span> and more.
+                    </p>
+                </div>
+
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/julen-indias-garcia/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://x.com/DevJulen" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/devjulen/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/DevJulen" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://devjulen.itch.io" target="_blank">
+                        <i class="fa-brands fa-itch-io"></i>
+                    </a>
+                </div>
+
+                <div class="btn-group">
+                    <a class="btn" href="files/CV-Julen-Indias.pdf" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">MY PROJECTS</h2>
+
+        <div class="projects-grid">
+            <!-- LOCKED -->
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=iC5Nl88aBL8" target="_blank" class="project-video-link"><img src="img/projects-img/locked-img.png" data-hover-img="img/projects-img/locked-play-img.png" alt="Locked play image"></a>
+                <h3>LOCKED</h3>
+                <span>First Person Puzzle game</span>
+                <span>Object interaction system</span>
+                <span>Achievement system</span>
+                <span>Translation system</span>
+                <div class="btn-group">
+                    <a href="https://devjulen.itch.io/locked" target="_blank" class="btn">Download</a>
+                    <a href="https://gitlab.com/indiasjulen/fps-miedito" target="_blank" class="btn">Source Code</a>
+                </div>
+            </div>
+            <!-- SOTD -->
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=vffgKfOmrVo" target="_blank" class="project-video-link"><img src="img/projects-img/sotd-img.png" data-hover-img="img/projects-img/sotd-play-img.png" alt="Siege of the Dead image"></a>
+                <h3>SIEGE OF THE DEAD</h3>
+                <span>3D Twin-Stick-Shooter</span>
+                <span>Round-based zombie game</span>
+                <span>Shop system</span>
+                <span>Different zombies and unique weapons</span>
+                <div class="btn-group">
+                    <a href="https://devjulen.itch.io/siege-of-the-dead" target="_blank" class="btn">Download</a>
+                    <a href="https://gitlab.com/indiasjulen/zombies-tss" target="_blank" class="btn">Source Code</a>
+                </div>
+            </div>
+            <!-- LUNA'S RUN -->
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=4TZaEkPem3c" target="_blank" class="project-video-link"><img src="img/projects-img/luna-img.png" data-hover-img="img/projects-img/luna-play-img.png" alt="Luna's Run image"></a>
+                <h3>LUNA'S RUN</h3>
+                <span>2D side-scrolling Endless Runner</span>
+                <span>Basic enemy behaviour</span>
+                <span>Ranking ladder implementation</span>
+                <span>Persistent data storage system</span>
+                <div class="btn-group">
+                    <a href="https://devjulen.itch.io/lunas-run" target="_blank" class="btn">Download</a>
+                    <a href="https://github.com/DevJulen/Lunas-Run" target="_blank" class="btn">Source Code</a>
+                </div>
+            </div>
+            <!-- SPANISH DELIGHT -->
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=oWnqJv91ktQ" target="_blank" class="project-video-link"><img src="img/projects-img/sd-img.jpg" data-hover-img="img/projects-img/sd-play-img.png" alt="Spanish Delight image"></a>
+                <h3>SPANISH DELIGHT</h3>
+                <span>Minecraft mod</span>
+                <span>Add-on for the Farmer's Delight mod</span>
+                <span>New crafting recipes, items and blocks</span>
+                <span>World generation features</span>
+                <div class="btn-group">
+                    <a href="https://www.curseforge.com/minecraft/mc-mods/spanish-delight-a-farmers-delight-add-on" target="_blank" class="btn">Download</a>
+                    <a href="https://github.com/DevJulen/SpanishDelight-1.20.1-Forge" target="_blank" class="btn">Source Code</a>
+                </div>
+            </div>
+            <!-- CUPHEAD AI -->
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=PO6hu-Sh_xE" target="_blank" class="project-video-link"><img src="img/projects-img/cupai-img.jpg" data-hover-img="img/projects-img/cupai-play-img.png" alt="Cuphead AI image"></a>
+                <h3>CUPHEAD AI</h3>
+                <span>AI approach for playing Cuphead</span>
+                <span>Automatically labeled dataset</span>
+                <span>The YOLO model to make detections</span>
+                <span>Python libraries to execute actions</span>
+                <div class="btn-group">
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7084152406942334976/" target="_blank" class="btn">Thesis</a>
+                    <a href="https://github.com/DevJulen/cuphead_ai" target="_blank" class="btn">Source Code</a>
+                </div>
+            </div>
+            <!-- ERGATETE -->
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=ZBPOfZbc_l0" target="_blank" class="project-video-link"><img src="img/projects-img/er_gatete-img.jpg" data-hover-img="img/projects-img/er_gatete-play-img.png" alt="ErGatete image"></a>
+                <h3>ERGATETE</h3>
+                <span>Made for the 2024 Global Game Jam</span>
+                <span>Round-based</span>
+                <span>Shop system</span>
+                <span>Two unique enemies</span>
+                <div class="btn-group">
+                    <a href="https://devjulen.itch.io/ergatete" target="_blank" class="btn">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="input-box">
+            <h2 class="section-title">GET IN TOUCH</h2>
+
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/julen-indias-garcia/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://x.com/DevJulen" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/devjulen/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/DevJulen" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://devjulen.itch.io" target="_blank">
+                    <i class="fa-brands fa-itch-io"></i>
+                </a>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+                <div class="input">
+                    <input type="text" required placeholder="Name" name="name" id="name">
+                </div>
+                <div class="input">
+                    <input type="text" required placeholder="Subject" name="subject" id="subject">
+                </div>
+                <div class="input">
+                    <input type="email" required placeholder="Email" name="email" id="email">
+                </div>
+                <div class="input">
+                    <textarea name="message" cols="15" rows="8" placeholder="You can write me in English or Spanish!" id="message"></textarea>
+                </div>
+                <div class="btn-group">
+                    <input class="btn" type="submit" onclick="sendEmail()" value="CONTACT">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
